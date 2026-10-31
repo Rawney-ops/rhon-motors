@@ -1,0 +1,139 @@
+css
+{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: fixed;
+    background-color: skyblue;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.download-icon{
+    display: inline-block;
+    margin: 20px;
+}
+.download-icon img{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: trasform 0.3s ease;
+
+}
+.download-icon img:hover{
+    transform: scale(1.1);
+}
+.qr-section {
+    text-align: center;
+    padding: 20px;
+}
+.qr-code{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+}
+.qr-section p {
+    font-size: 16px;
+}
+    navbar{
+    text-align: left;
+    margin: auto;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+nav {
+    background-color: #102d55;
+    padding: 12px;
+    text-align: left;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 3px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+nav a:hover{
+    color: tomato;
+    background: #000;
+
+}
+body{
+
+    background-image: url("mk1.jpg"); 
+    background-size:cover;
+    background-position: center;
+    background:linear gradient url(mk1.jpg);
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    background-attachment: fixed;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.logo{
+    text-decoration:none;
+    font-display: block;
+
+}
+#search{
+    margin:30px auto;
+    text-align: center;
+}
+#search-form {
+    display: flex;
+    justify-content: center;
+    max-width: 450px;
+    margin: auto;
+}
+#search input{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid#007bff;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    font-size: 16px;
+}
+#search button{
+    padding: 12px 20px;
+    border:none;
+    background-color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+     border-radius: 0 25px 25px 0;
+}
+#seach button:hover{
+    background-color: #0056b3;
+}
+.btn{
+    display: inline;
+    background: #ffb400;
+    color:#071a2e;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background: white;
+    color: tomato;
+}
+@media (max-width: 850px){
+    .header{
+        justify-content: center;gap: 15px;
+    }
+}
